@@ -1,0 +1,114 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #000000; /* Light Gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #b3b3b3; /* Dark Gray for text */
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Centered Box for Title and Button */
+  .center-box {
+    background-color: #606060; /* Light Gray box */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .center-box h1 {
+    font-size: 36px;
+    color: #b8b8b8; /* Medium Gray for title */
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #2d2d2d; /* Light Gray background */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #b8b8b8; /* Darker gray on hover */
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    padding: 40px;
+    text-align: center;
+    background-color: #000000; /* Light Gray background */
+    width: 100%;
+  }
+  
+  .how-it-works h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b8b8b8; /* Darker gray for section title */
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    background-color: #606060; /* Light Gray for step box */
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .step i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:  #c5c5c5; /* Dark Gray for icons */
+  }
+  
+  .step h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #c5c5c5; /* Dark Gray for step title */
+  }
+  
+  .step p {
+    font-size: 16px;
+    color: #c5c5c5; /* Medium Gray for step description */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .steps {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
