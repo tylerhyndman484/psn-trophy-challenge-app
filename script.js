@@ -1,6 +1,7 @@
 import { exchangeCodeForAccessToken } from "psn-api";
 import { exchangeNpssoForCode } from "psn-api";
 import { exchangeRefreshTokenForAuthTokens } from "psn-api";
+import { getUserTrophyProfileSummary } from "psn-api";
 
 // Link Playstation Account
 // Display all unobtained trophies in their dashboard
