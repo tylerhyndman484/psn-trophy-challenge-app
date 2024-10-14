@@ -11,6 +11,8 @@ import { getUserTrophyProfileSummary } from "psn-api";
 // Leaderboard & Progress Tracking
 // Put trophies in the app when they complete milestones
 // Multiplayer Mode - allow friends to team up and see which teams can obtain the most trophies in a certian amount of time
+// Learn how to call the API
+
 
 // <-------- PSN API CODE -------->
 const myNpsso = "sy8U3WgDURAxUAPLy24sE5LdWCa8KQLh03K0Iz16plopgom5qayKaq5pPzG4NAeE";
