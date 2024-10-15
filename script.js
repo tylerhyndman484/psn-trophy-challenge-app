@@ -1,3 +1,6 @@
+const npsso = "mKoGjaOHf3zyMlms8tlcDrPdVTmrfSM5ElWYvigvEnXFZBDbm7yMgg3Cejvy4yHX";
+import { exchangeCodeForAccessToken, exchangeNpssoForCode, getTitleTrophies } from './psn-api.js';
+
 // Link Playstation Account
 // Display all unobtained trophies in their dashboard
 // Randomize a unobtained trophy from their trophy list
@@ -16,6 +19,7 @@ function alertMessage() {
 
 const Redirecting = () => {
   btn.addEventListener('click', alertMessage);
+  // authorization code for PSN Account
 }
 
 Redirecting();
