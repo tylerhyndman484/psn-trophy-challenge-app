@@ -1,7 +1,8 @@
-const npsso = "mKoGjaOHf3zyMlms8tlcDrPdVTmrfSM5ElWYvigvEnXFZBDbm7yMgg3Cejvy4yHX";
-import { exchangeCodeForAccessToken, exchangeNpssoForCode, getTitleTrophies } from './psn-api.js';
+import { exchangeCodeForAccessToken } from "psn-api";
 
-// Link Playstation Account
+const npsso = "mKoGjaOHf3zyMlms8tlcDrPdVTmrfSM5ElWYvigvEnXFZBDbm7yMgg3Cejvy4yHX";
+
+// Link Playstation Accountç
 // Display all unobtained trophies in their dashboard
 // Randomize a unobtained trophy from their trophy list
 // Challenge friends to a challenge
