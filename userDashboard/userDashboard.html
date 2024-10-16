@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trophy Challenge Dashboard</title>
+  <link rel="stylesheet" href="userDashboard.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="logo">
+      <h2>🏆 Trophy Challenge</h2>
+    </div>
+    <ul>
+      <li><a href="#" class="active">Dashboard</a></li>
+      <li><a href="#">Trophy List</a></li>
+      <li><a href="#">Challenges</a></li>
+      <li><a href="#">Leaderboard</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Dashboard Content -->
+  <div class="main-content">
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="greeting">Hello, <strong>PlayerOne</strong>!</div>
+      <div class="profile">
+        <span class="notifications">🔔</span>
+        <img src="avatar.jpg" alt="User Avatar" class="avatar">
+      </div>
+    </div>
+
+    <!-- Dashboard Stats and Actions -->
+    <div class="dashboard-content">
+      <!-- User Stats -->
+      <div class="stats-cards">
+        <div class="card">
+          <h3>Trophies Unlocked</h3>
+          <p>45</p>
+        </div>
+        <div class="card">
+          <h3>Ongoing Challenges</h3>
+          <p>3</p>
+        </div>
+        <div class="card">
+          <h3>Wins</h3>
+          <p>12</p>
+        </div>
+        <div class="card">
+          <h3>Losses</h3>
+          <p>5</p>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="quick-actions">
+        <button class="btn-primary">Create Challenge</button>
+        <button class="btn-secondary">Browse Trophies</button>
+      </div>
+
+      <!-- Active Challenges -->
+      <div class="active-challenges">
+        <h2>Active Challenges</h2>
+        <div class="challenge">
+          <img src="game-icon.jpg" alt="Game Icon">
+          <div class="challenge-details">
+            <p><strong>Trophy:</strong> First Blood (50% Complete)</p>
+            <p><strong>Opponent:</strong> Friend123 (30% Complete)</p>
+            <p><strong>Time Left:</strong> 12h 45m</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 50%;"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other challenges -->
+      </div>
+
+      <!-- Recent Activity -->
+      <div class="recent-activity">
+        <h2>Recent Activity</h2>
+        <ul>
+          <li>Friend123 unlocked "Platinum Trophy" in <strong>Game XYZ</strong></li>
+          <li>You won a challenge against <strong>Friend456</strong></li>
+          <li>Friend789 started a new challenge with you</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Responsive Sidebar Toggle -->
+  <div class="sidebar-toggle">☰</div>
+
+  <script src="userDashboard.js"></script>
+</body>
+</html>

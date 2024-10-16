@@ -5,6 +5,7 @@ const npsso = "mKoGjaOHf3zyMlms8tlcDrPdVTmrfSM5ElWYvigvEnXFZBDbm7yMgg3Cejvy4yHX"
 const accessCode = await exchangeNpssoForCode(npsso);
 const authorization = await exchangeCodeForAccessToken(accessCode);
 
+console.log(accessCode);
 
 // Link Playstation Accountç
 // Display all unobtained trophies in their dashboard
@@ -15,16 +16,3 @@ const authorization = await exchangeCodeForAccessToken(accessCode);
 // Put trophies in the app when they complete milestones
 // Multiplayer Mode - allow friends to team up and see which teams can obtain the most trophies in a certian amount of time
 // Learn how to call the API
-
-const btn = document.getElementById("link-psn-btn");
-
-function alertMessage() {
-    alert("Redirecting to Playstation Login...");
-  }
-
-const Redirecting = () => {
-  btn.addEventListener('click', alertMessage);
-  // authorization code for PSN Account
-}
-
-Redirecting();
