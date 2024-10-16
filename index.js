@@ -1,6 +1,10 @@
-import { exchangeCodeForAccessToken } from "psn-api";
+import { exchangeCodeForAccessToken, exchangeNpssoForCode, exchangeRefreshTokenForAuthTokens } from "psn-api";
 
 const npsso = "mKoGjaOHf3zyMlms8tlcDrPdVTmrfSM5ElWYvigvEnXFZBDbm7yMgg3Cejvy4yHX";
+
+const accessCode = await exchangeNpssoForCode(npsso);
+const authorization = await exchangeCodeForAccessToken(accessCode);
+
 
 // Link Playstation Accountç
 // Display all unobtained trophies in their dashboard
