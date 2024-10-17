@@ -1,12 +1,3 @@
-import { exchangeCodeForAccessToken, exchangeNpssoForCode, exchangeRefreshTokenForAuthTokens } from "psn-api";
-
-const npsso = "mKoGjaOHf3zyMlms8tlcDrPdVTmrfSM5ElWYvigvEnXFZBDbm7yMgg3Cejvy4yHX";
-
-const accessCode = await exchangeNpssoForCode(npsso);
-const authorization = await exchangeCodeForAccessToken(accessCode);
-
-console.log(accessCode);
-
 // Link Playstation Accountç
 // Display all unobtained trophies in their dashboard
 // Randomize a unobtained trophy from their trophy list
@@ -16,3 +7,11 @@ console.log(accessCode);
 // Put trophies in the app when they complete milestones
 // Multiplayer Mode - allow friends to team up and see which teams can obtain the most trophies in a certian amount of time
 // Learn how to call the API
+
+import { exchangeCodeForAccessToken, exchangeNpssoForCode, exchangeRefreshTokenForAuthTokens } from "psn-api";
+
+const npsso = "mKoGjaOHf3zyMlms8tlcDrPdVTmrfSM5ElWYvigvEnXFZBDbm7yMgg3Cejvy4yHX";
+
+const accessCode = await exchangeNpssoForCode(npsso);
+const authorization = await exchangeCodeForAccessToken(accessCode);
+
